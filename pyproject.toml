@@ -1,0 +1,9 @@
+[project]
+name = "re-journey"
+version = "0.1.0"
+description = "A research engineer's lab notebook: small experiments, honest results."
+requires-python = ">=3.11"
+dependencies = ["numpy", "matplotlib", "torch", "jupyter"]
+
+[project.optional-dependencies]
+dev = ["pytest"]
